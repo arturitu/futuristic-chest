@@ -1,0 +1,169 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.8",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Chest"
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "name" : "Material",
+            "normalTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 2,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "chestEmissive",
+            "uri" : "chestEmissive.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "chestNormalsOverlayed",
+            "uri" : "chestNormalsOverlayed.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "chestAO-chestRoughness-chestMetallic",
+            "uri" : "chestAO-chestRoughness-chestMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "chestDiffuse",
+            "uri" : "chestDiffuse.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4743,
+            "max" : [
+                1.6321929693222046,
+                1.1533197164535522,
+                1.5041248798370361
+            ],
+            "min" : [
+                -1.691408634185791,
+                -1.095916509628296,
+                -1.158159613609314
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4743,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4743,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 8058,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 56916,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56916,
+            "byteOffset" : 56916
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 37944,
+            "byteOffset" : 113832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16116,
+            "byteOffset" : 151776
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 167892,
+            "uri" : "futuristic-chest.bin"
+        }
+    ]
+}
